@@ -1,0 +1,11 @@
+\documentclass{article}
+\usepackage[russian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+
+\begin{document}
+
+$$
+3\frac{1}{(\cos(x))^{2}}+\frac{\cos(\exp(x))\exp(x)}{\sin(\exp(x))}
+$$
+\end{document}

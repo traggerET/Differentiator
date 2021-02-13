@@ -1,0 +1,40 @@
+digraph G{
+node [shape="record", style="solid", color="blue"];
+"001BB140":sw->"001BB100"
+"001BB100":sw->"001BB0C0"
+"001BB0C0" [style="filled", fillcolor="seagreen1", label="{3}"]
+ "001BB100":se->"001BB1A0"
+"001BB1A0":sw->"001BB0E0"
+"001BB0E0" [style="filled", fillcolor="seagreen1", label="{1}"]
+ "001BB1A0":se->"001BB240"
+"001BB240":sw->"001BB300"
+"001BB300":se->"001BAFA0"
+"001BAFA0" [style="filled", fillcolor="lightpink", label="{x}"]
+ "001BB300" [style="filled", fillcolor="skyblue1", label="{cos}"]
+ "001BB240":se->"001BB160"
+"001BB160" [style="filled", fillcolor="seagreen1", label="{2}"]
+ "001BB240" [style="filled", fillcolor="skyblue1", label="{^}"]
+ "001BB1A0" [style="filled", fillcolor="skyblue1", label="{/}"]
+ "001BB100" [style="filled", fillcolor="skyblue1", label="{*}"]
+ "001BB140":se->"001BB2A0"
+"001BB2A0":sw->"001BB220"
+"001BB220":sw->"001BB040"
+"001BB040":se->"001BB280"
+"001BB280":se->"001BB180"
+"001BB180" [style="filled", fillcolor="lightpink", label="{x}"]
+ "001BB280" [style="filled", fillcolor="skyblue1", label="{exp}"]
+ "001BB040" [style="filled", fillcolor="skyblue1", label="{cos}"]
+ "001BB220":se->"001BB080"
+"001BB080":se->"001B04B0"
+"001B04B0" [style="filled", fillcolor="lightpink", label="{x}"]
+ "001BB080" [style="filled", fillcolor="skyblue1", label="{exp}"]
+ "001BB220" [style="filled", fillcolor="skyblue1", label="{*}"]
+ "001BB2A0":se->"001B7F88"
+"001B7F88":se->"001B7FA8"
+"001B7FA8":se->"001B7FC8"
+"001B7FC8" [style="filled", fillcolor="lightpink", label="{x}"]
+ "001B7FA8" [style="filled", fillcolor="skyblue1", label="{exp}"]
+ "001B7F88" [style="filled", fillcolor="skyblue1", label="{sin}"]
+ "001BB2A0" [style="filled", fillcolor="skyblue1", label="{/}"]
+ "001BB140" [style="filled", fillcolor="skyblue1", label="{+}"]
+ }
